@@ -5,7 +5,7 @@ int main (){
     int i;
 
     for (i=1;i <= 100;i++) {
-    printf("%d",i);
+
     if (i%3 == 0){
         printf("FIZZ");
     }
@@ -13,7 +13,7 @@ int main (){
         printf("BUZZ") ;
     }
     if (i%3 != 0 && i%5 != 0){
-     //   printf("%d",i);
+    printf("%d",i);
     }
 
     printf("\n");
